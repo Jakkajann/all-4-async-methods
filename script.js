@@ -1,6 +1,6 @@
 const url_endpoint = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
 
-
+window.onload = getJqueryAjax;
 
 function getXHR() {
     let XHR = new XMLHttpRequest();
